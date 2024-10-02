@@ -14,9 +14,14 @@
     align-items: center;
 }
 
-.gpt4__navbar-links_logo {
-    margin-right: 2rem;
+.gpt4__navbar-links_logo h1 {
+    color: #fff; /* Text color */
+    font-family: var(--font-family); /* Keep the same font family */
+    font-size: 24px; /* Adjust the size */
+    font-weight: bold; /* Make it bold */
+    margin: 0; /* Remove any default margin */
 }
+
 
 .gpt4__navbar-links_logo img {
     width: 62.56px;
